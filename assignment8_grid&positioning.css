@@ -114,6 +114,7 @@
     width: 20%;
     height: 60px;
     margin-top: -1px;
+    margin-bottom: 50px;
     text-align: center;
     color: white;
     font-weight: 400;
@@ -147,23 +148,163 @@
 }
 
 
-
 /*  SERVICES  */
 
 .services {
     display: grid; 
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 50px;
     position: relative;
     border-top: 10px solid #9353E7;
 }
+/* row1 header */
 .services_header{
     padding: 10px;
     width: 20%;
     height: 60px;
     margin-top: -1px;
+    margin-bottom: 50px;
     text-align: center;
     color: white;
     background: #9353E7;
+    font-weight: 400;
+}
+/* row2 services */
+.our_services{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+}
+.service_items{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    background-color: #9353E7;
+    color: #fff;
+    align-items: center;
+    justify-items: center;
+    padding: 20px;
+    vertical-align: middle;
+}
+/* row3 skills */
+.services_row3{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin: auto;
+    align-items: baseline;
+    margin-top: 60px;
+}
+
+.services_row3  h2{
+    font-weight: 400;
+    line-height: 5rem;
+    color: #8a2be2;
+}
+
+/* .row3_c1_text > p{ 
+    font-size: 0.8rem;
+    line-height: 1.1rem;
+/* } */
+
+.row3_c2_progress{
+    display: grid;
+    margin-top: 30px;
+    margin-bottom: 150px;
+    justify-items: center;
+    align-items: center;
+    align-content: space-evenly;
+    height: fit-content;
+    row-gap: 10px;
+    text-align: center;
+}
+.progress {
+    width:80%;
+    border: 2px solid #f2f3f4;
+    background-color: #f2f3f4;
+    height: 20px;
+    margin-left: 20%;
+  }
+  
+  .progress .progress_bar1 {
+    width: 90%;
+    margin-top: -1px;
+    margin-left: -1px;
+    height: 20px;
+    background-color: #8a2be2;
+  }
+
+  .progress .progress_bar2 {
+    width: 75%;
+    height: 20px;
+    margin-top: -1px;
+    text-align: center;
+    align-content: center;
+    margin-left: -1px;
+    background-color: #8a2be2;
+  }
+
+  .progress .progress_bar3 {
+    width: 66%;
+    height: 20px;
+    margin-top: -1px;
+    margin-left: -1px;
+    background-color: #8a2be2;
+  }
+
+  .progress .progress_bar4 {
+    width: 88%;
+    height: 20px;
+    margin-top: -1px;
+    margin-left: -1px;
+    background-color: #8a2be2;
+  }
+
+
+
+/*  PORTFOLIO  */
+
+.portfolio {
+    display: grid; 
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+    position: relative;
+    border-top: 10px solid #38E593;
+}
+.portfolio_header{
+    padding: 10px;
+    width: 20%;
+    height: 60px;
+    margin-top: -1px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+    background: #38E593;
+    font-weight: 400;
+}
+
+
+/*  CONTACT  */
+
+.contact {
+    display: grid; 
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+    position: relative;
+    border-top: 10px solid #E4367B;
+}
+.contact_header{
+    padding: 10px;
+    width: 20%;
+    height: 60px;
+    margin-top: -1px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+    background: #E4367B;
     font-weight: 400;
 }
